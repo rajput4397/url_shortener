@@ -24,7 +24,11 @@ This project is a simple URL shortener built with Django and Docker.
    cd url-shortener
    cd django-url-shortener
 
+   alternate way can be
+    download the project folder in your local machine and extract it and in cmd navigate inside the folder "django-url-shortener"
+
 3.Once inside the folder run the command
+  docker-compose build
   docker-compose up
 
 4.Navigate to http://localhost:8000/ in your browser to access the URL shortener interface.
